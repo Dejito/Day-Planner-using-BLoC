@@ -43,7 +43,7 @@ class TodoState extends Equatable {
     return {
       'todo': todos,
       'status': status.name
-    }
+    };
   }
 
   @override
